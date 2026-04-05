@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Trimurti Enterprise",
-  url: "https://www.trimurtienterprise.com",
+  url: "https://trimurtienterprisespvt.com",
   description:
     "Trimurti Enterprise delivers infrastructure materials, transport logistics, hard rock blasting, and civil execution support for large-scale industrial projects across India.",
   phone: "+91 9082433849",
