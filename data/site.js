@@ -101,7 +101,7 @@ export const equipmentInventory = [
   {
     serialNo: "1",
     machine: "Hydraulic Excavator",
-    description: "TATA-SUPEER EX-20LC & SANY-SY220 C-9 & SANY SY140 C-9 XCMG-210",
+    description: "TATA SUPER EX-200LC",
     quantity: "12 NOS"
   },
   {
