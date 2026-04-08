@@ -3,7 +3,7 @@ export const dynamic = "force-static";
 import { materialServicePages, services, siteConfig } from "@/data/site";
 
 export default function sitemap() {
-  const staticRoutes = ["", "/about", "/services", "/contact"].map((route) => ({
+  const staticRoutes = ["", "/about", "/services", "/equipments", "/projects", "/contact"].map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date(),
     changeFrequency: route === "" ? "weekly" : "monthly",

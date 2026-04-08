@@ -48,8 +48,148 @@ export const navigation = [
       }
     ]
   },
+  { label: "Equipments", href: "/equipments" },
+  { label: "Projects", href: "/projects" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" }
+];
+
+export const equipments = [
+  {
+    title: "Excavation Machinery",
+    description: "High-capacity excavators and rock-handling machines built for deep cutting, bulk excavation, and demanding terrain conditions.",
+    icon: "tools",
+    points: [
+      "Heavy-duty excavation support",
+      "Reliable performance on hard strata",
+      "Fast deployment for active sites"
+    ]
+  },
+  {
+    title: "Crushing Plant Equipment",
+    description: "Production-ready crushing and screening systems for graded aggregates, M.Sand, and continuous material output.",
+    icon: "crusher",
+    points: [
+      "Consistent aggregate processing",
+      "Efficient grading and screening",
+      "Built for steady production cycles"
+    ]
+  },
+  {
+    title: "Transport Fleet",
+    description: "Bulk logistics vehicles supporting rubble, metal, sand, and construction material movement across infrastructure projects.",
+    icon: "truck",
+    points: [
+      "Scheduled bulk haulage",
+      "Material-safe delivery planning",
+      "Project-linked dispatch reliability"
+    ]
+  },
+  {
+    title: "Rock Support Systems",
+    description: "Equipment and installation support for rockbolts, wiremesh, and stabilization work in tunnels, slopes, and exposed faces.",
+    icon: "bolt",
+    points: [
+      "Stability-focused support systems",
+      "Tunnel and slope reinforcement",
+      "Ready for complex site conditions"
+    ]
+  }
+];
+
+export const equipmentInventory = [
+  {
+    serialNo: "1",
+    machine: "Hydraulic Excavator",
+    description: "TATA-SUPEER EX-20LC & SANY-SY220 C-9 & SANY SY140 C-9 XCMG-210",
+    quantity: "12 NOS"
+  },
+  {
+    serialNo: "2",
+    machine: "Diamond Cutting Machine",
+    description: "LT:- 4 & Cutting Machinga",
+    quantity: "8 NOS"
+  },
+  {
+    serialNo: "3",
+    machine: "Dumper / Hyva",
+    description: "TATA 1613 & Ashok Layland",
+    quantity: "18 NOS"
+  },
+  {
+    serialNo: "4",
+    machine: "Air Compreser & Electric Air Compreser",
+    description: "Cp-cp 300F & ATLAS-ELGI DT 450/150",
+    quantity: "10 NOS"
+  },
+  {
+    serialNo: "5",
+    machine: "Rock Breaker",
+    description: "FURUKAWA HYDEAULIC F-22LN :4 R.K 22 HYDEAULIC :- 4",
+    quantity: "12 NOS"
+  },
+  {
+    serialNo: "6",
+    machine: "Jack Hammer",
+    description: "SANDVIC",
+    quantity: "55 NOS"
+  }
+];
+
+export const projects = [
+  {
+    title: "Urban Excavation Works",
+    description: "Precision hard rock execution for dense city sites where vibration control, sequencing, and safety planning are critical.",
+    image: "/images/services/Hard Rock Control Blasting1.jpeg",
+    points: [
+      "Controlled blasting strategy",
+      "Low-disturbance site execution",
+      "Schedule-focused delivery"
+    ]
+  },
+  {
+    title: "Aggregate Supply Projects",
+    description: "Continuous delivery of 20 mm aggregate, M.Sand, and plaster sand for concrete, finishing, and structural packages.",
+    image: "/images/services/M. SAND1.jpeg",
+    points: [
+      "Consistent grading quality",
+      "Bulk production readiness",
+      "Dependable material supply"
+    ]
+  },
+  {
+    title: "Heavy Logistics Operations",
+    description: "Coordinated movement of rubble, metal, and sand through route-planned transport systems that keep sites moving.",
+    image: "/images/services/Trimurti Transport1.jpeg",
+    points: [
+      "Efficient route planning",
+      "On-time dispatch support",
+      "Multi-load infrastructure logistics"
+    ]
+  }
+];
+
+export const projectRecords = [
+  { serialNo: "1", name: "Afcon Infrastructure Limited", project: "Shaft, Assembly & Tail Water Tunnel Project Mulund", work: "Control Blasting Work For Shaft, Assembly & Tail Water Tunnel", site: "Mulund Thane" },
+  { serialNo: "2", name: "Afcon Infrastructure Limited", project: "Shaft, Assembly & Tail Water Tunnel Project Gate No :- 4", work: "112 Mtr Dept Excavation And Control Blating Work Completed in 3 month", site: "CIDCO" },
+  { serialNo: "3", name: "H.C.C. - H.D.C.", project: "Coast Road Project", work: "Control Blasting Work", site: "Worli - Bandra Sea Link" },
+  { serialNo: "4", name: "Lodha", project: "Residential Bulding", work: "Control Blasting Work & Daimond Rock Cutting", site: "Dombivali" },
+  { serialNo: "5", name: "Lodha", project: "Palava Social Housing - Infra", work: "Hard Rock Control Blasting Work", site: "Taloja, Palava II" },
+  { serialNo: "6", name: "Lodha", project: "Royall Villa", work: "Control Blasting Work", site: "Upper Thane, Mankoli" },
+  { serialNo: "7", name: "3 Circle", project: "Antaliya 2", work: "Daimond Hard Rock Cutting Work & Chemical Rock Cracking", site: "Tardeo Antaliya Building, Mumbai" },
+  { serialNo: "8", name: "FERANI DEVLOPERS", project: "K Raheja", work: "Control Blasting Work", site: "Malad, Dindoshi (E)" },
+  { serialNo: "9", name: "Palam Grove Beach Hotel Pvt. Ltd", project: "K Raheja", work: "Daimond Hard Rock Cutting", site: "Ghatkopar" },
+  { serialNo: "10", name: "SHIRKE", project: "PRADHAN MANTRI AWAS YOGNA", work: "Control Blasting Work", site: "KHONI, DOMBIVALI" },
+  { serialNo: "11", name: "H.C.C.", project: "UNDER GROUND MTED", work: "Control Blasting Work", site: "Kalba Devi, Mumbai" },
+  { serialNo: "12", name: "Gundecha", project: "Residential Building", work: "Control Blasting Work", site: "Poisor, Mumbai" },
+  { serialNo: "13", name: "MAHALINGAM EARTH MOVERS PVT.LTD", project: "Residential Building", work: "Control Blasting Work", site: "Akuli, Kandivali (E)" },
+  { serialNo: "14", name: "L&T, NESCO", project: "I.T. Park", work: "Control Blasting Work", site: "Western Highway, Goregaon (E)" },
+  { serialNo: "15", name: "BALAJI EARTH MOVERS", project: "Residential Building", work: "Control Blasting Work", site: "Dahisar (E), Mumbai" },
+  { serialNo: "16", name: "L&T COMPANY (DURISTAR INRATUCTTER PVT.LTD)", project: "Metro Rail Vidhan Bhavan Stion", work: "Control Blasting Work", site: "Vidhan Bhavan, Mumbai" },
+  { serialNo: "17", name: "FORBES COMPANY (SHAPOORJI PALLONJI)", project: "Residential Tower", work: "Control Blasting Work", site: "Chandivali, Mumbai" },
+  { serialNo: "18", name: "H.P.C.L COMPANY (L.R. ENTERPRISES)", project: "Calion Plant", work: "Control Blasting Work", site: "Mahul, Mumbai" },
+  { serialNo: "19", name: "H.P.C.L. COMPANY (S.R.ENTERPRISES)", project: "Calion Plant", work: "Control Blasting Work", site: "Mahul, Mumbai" },
+  { serialNo: "20", name: "M.I.D.C (I. R. ENTERPRISES)", project: "MIDC RAIL PROGRESS", work: "Control Blasting Work", site: "M.I.D.C. STATION, ANDHERI (E)" }
 ];
 
 export const materialServicePages = [
