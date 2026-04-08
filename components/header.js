@@ -20,6 +20,12 @@ function isActiveItem(item, pathname) {
 export function Header() {
   const pathname = usePathname();
   const headerRef = useRef(null);
+  const menuToggleRef = useRef(null);
+
+  const syncMobileMenuState = () => {
+    const isOpen = menuToggleRef.current?.open ?? false;
+    document.body.classList.toggle("mobile-menu-open", isOpen);
+  };
 
   const closeAllMenus = () => {
     if (!headerRef.current) {
@@ -31,6 +37,8 @@ export function Header() {
       .forEach((detail) => {
         detail.open = false;
       });
+
+    document.body.classList.remove("mobile-menu-open");
   };
 
   useEffect(() => {
@@ -47,6 +55,12 @@ export function Header() {
   useEffect(() => {
     closeAllMenus();
   }, [pathname]);
+
+  useEffect(() => {
+    return () => {
+      document.body.classList.remove("mobile-menu-open");
+    };
+  }, []);
 
 
   const handleDetailToggle = (detailClass) => (event) => {
@@ -256,7 +270,7 @@ export function Header() {
         <Link href="/contact" className="button" onClick={handleLinkClick}>
           Get Quote
         </Link>
-        <details className="menu-toggle">
+        <details className="menu-toggle" ref={menuToggleRef} onToggle={syncMobileMenuState}>
           <summary aria-label="Open menu"><span className="menu-toggle__lines" aria-hidden="true"><span></span><span></span><span></span></span></summary>
           <div className="topbar__mobile">{navigation.map((item) => renderMobileItem(item))}</div>
         </details>
