@@ -262,7 +262,7 @@ export function Header() {
       <div className="container topbar__inner">
         <Link href="/" className="brand" onClick={handleLinkClick}>
           <Image src="/TE.png" alt="Trimurti Enterprise Logo" width={42} height={42} style={{ objectFit: "contain" }} priority />
-          Trimurti Enterprise
+          Trimurti Enterprises
         </Link>
         <nav className="nav" aria-label="Primary">
           {navigation.map((item) => renderDesktopItem(item))}
