@@ -1,4 +1,4 @@
-import BorderGlow from "@/components/border-glow";
+﻿import BorderGlow from "@/components/border-glow";
 import { Icon } from "@/components/icons";
 import { FadeIn, SlideIn, StaggerContainer, StaggerItem } from "@/components/motion";
 import { MediaFrame } from "@/components/media";
@@ -11,7 +11,7 @@ const equipmentsHero = "/images/services/home.jpeg";
 
 export const metadata = {
   title: "Equipments",
-  description: "Explore Trimurti Enterprise equipment capabilities across excavation, crushing, transport, and rock support operations."
+  description: "Explore Trimurti Enterprises equipment capabilities across excavation, crushing, transport, and rock support operations."
 };
 
 export default function EquipmentsPage() {
@@ -36,7 +36,7 @@ export default function EquipmentsPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Trimurti Enterprise Equipments",
+    name: "Trimurti Enterprises Equipments",
     url: `${siteConfig.url}/equipments`
   };
 

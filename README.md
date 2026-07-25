@@ -1,6 +1,6 @@
-# Trimurti Enterprise
+﻿# Trimurti Enterprises
 
-A Next.js 15 application for the Trimurti Enterprise website.
+A Next.js 15 application for the Trimurti Enterprises website.
 
 ## Development
 

@@ -1,8 +1,8 @@
-export const siteConfig = {
-  name: "Trimurti Enterprise",
+﻿export const siteConfig = {
+  name: "Trimurti Enterprises",
   url: "https://trimurtienterprisespvt.com",
   description:
-    "Trimurti Enterprise delivers infrastructure materials, transport logistics, hard rock blasting, and civil execution support for large-scale industrial projects across India.",
+    "Trimurti Enterprises delivers infrastructure materials, transport logistics, hard rock blasting, and civil execution support for large-scale industrial projects across India.",
   phone: "+91 9082433849",
   email: "trimurtienterprises4726@gmail.com",
   whatsapp: "919137304245",
@@ -199,7 +199,7 @@ export const materialServicePages = [
     group: "Stone Crusher Division",
     description: "Engineered aggregate production with strict quality grading for infrastructure and construction projects.",
     metaTitle: "Stone Crusher in Mumbai | Aggregate & M.Sand Supply in Maharashtra",
-    metaDescription: "Trimurti Enterprise operates top-tier stone crushers in Mumbai, Maharashtra. We supply 20mm aggregate, M.Sand, and plaster sand for heavy infrastructure projects.",
+    metaDescription: "Trimurti Enterprises operates top-tier stone crushers in Mumbai, Maharashtra. We supply 20mm aggregate, M.Sand, and plaster sand for heavy infrastructure projects.",
     icon: "crusher",
     points: [
       "Consistent grading and size control",
@@ -409,7 +409,7 @@ export const services = [
     ],
     metaTitle: "Hard Rock Control Blasting Services in Mumbai & Maharashtra",
     metaDescription:
-      "Explore Trimurti Enterprise hard rock control blasting solutions for excavation, tunneling, quarry work, and sensitive urban projects in Mumbai and Maharashtra."
+      "Explore Trimurti Enterprises hard rock control blasting solutions for excavation, tunneling, quarry work, and sensitive urban projects in Mumbai and Maharashtra."
   },
   {
     slug: "hard-rock-diamond-saw-cutting",

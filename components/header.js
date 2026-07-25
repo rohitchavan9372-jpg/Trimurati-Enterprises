@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -261,7 +261,7 @@ export function Header() {
     <header className="topbar" ref={headerRef}>
       <div className="container topbar__inner">
         <Link href="/" className="brand" onClick={handleLinkClick}>
-          <Image src="/TE.png" alt="Trimurti Enterprise Logo" width={42} height={42} style={{ objectFit: "contain" }} priority />
+          <Image src="/TE.png" alt="Trimurti Enterprises Logo" width={42} height={42} style={{ objectFit: "contain" }} priority />
           Trimurti Enterprises
         </Link>
         <nav className="nav" aria-label="Primary">

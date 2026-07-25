@@ -63,7 +63,7 @@ export async function POST(request) {
   }
 
   const toEmail = process.env.CONTACT_TO_EMAIL || process.env.OWNER_EMAIL || siteConfig.email;
-  const fromEmail = process.env.RESEND_FROM_EMAIL || "Trimurti Enterprise <onboarding@resend.dev>";
+  const fromEmail = process.env.RESEND_FROM_EMAIL || "Trimurti Enterprises <onboarding@resend.dev>";
 
   const subject = `New Enquiry: ${service}`;
 

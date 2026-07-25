@@ -1,4 +1,4 @@
-import CountUp from "@/components/count-up";
+﻿import CountUp from "@/components/count-up";
 import { Icon } from "@/components/icons";
 import { FadeIn, SlideIn, StaggerContainer, StaggerItem } from "@/components/motion";
 import BorderGlow from "@/components/border-glow";
@@ -9,7 +9,7 @@ import { contactStats, siteConfig } from "@/data/site";
 
 export const metadata = {
   title: "Contact",
-  description: "Contact Trimurti Enterprise for stone crusher supply, transport logistics, hard rock blasting, and infrastructure consultation."
+  description: "Contact Trimurti Enterprises for stone crusher supply, transport logistics, hard rock blasting, and infrastructure consultation."
 };
 
 export default function ContactPage() {
@@ -32,7 +32,7 @@ export default function ContactPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    name: "Contact Trimurti Enterprise",
+    name: "Contact Trimurti Enterprises",
     url: `${siteConfig.url}/contact`
   };
 
@@ -100,7 +100,7 @@ export default function ContactPage() {
               <StaggerItem>
                 <div className="map-card">
                   <iframe
-                    title="Trimurti Enterprise Location"
+                    title="Trimurti Enterprises Location"
                     src="https://www.google.com/maps?q=19.174911,72.876675&output=embed"
                     width="100%"
                     height="320"

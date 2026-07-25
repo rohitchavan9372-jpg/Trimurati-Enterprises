@@ -1,4 +1,4 @@
-import CountUp from "@/components/count-up";
+﻿import CountUp from "@/components/count-up";
 import { Icon } from "@/components/icons";
 import { MediaFrame } from "@/components/media";
 import { FadeIn, SlideIn, StaggerContainer, StaggerItem } from "@/components/motion";
@@ -11,7 +11,7 @@ const aboutImage = "/images/services/abouttop.jpeg";
 
 export const metadata = {
   title: "About Us",
-  description: "Learn about Trimurti Enterprise, our core divisions, certifications, values, and leadership team powering infrastructure delivery."
+  description: "Learn about Trimurti Enterprises, our core divisions, certifications, values, and leadership team powering infrastructure delivery."
 };
 
 export default function AboutPage() {
@@ -29,7 +29,7 @@ export default function AboutPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About Trimurti Enterprise",
+    name: "About Trimurti Enterprises",
     url: `${siteConfig.url}/about`
   };
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
             <span className="eyebrow">Our Legacy</span>
             <h1 className="display">Engineering a <em>Solid</em> Future.</h1>
             <p className="lede about-hero-lede">
-              Founded on principles of reliability and structural integrity, Trimurti Enterprise has evolved from
+              Founded on principles of reliability and structural integrity, Trimurti Enterprises has evolved from
               a local transport outfit into a regional powerhouse of infrastructure and material supply.
             </p>
           </SlideIn>
@@ -51,7 +51,7 @@ export default function AboutPage() {
           <SlideIn direction="right" className="hero-art about-hero-art">
             <MediaFrame
               src={aboutImage}
-              alt="Trimurti Enterprise project site"
+              alt="Trimurti Enterprises project site"
               className="hero-frame hero-frame--about"
               priority
               sizes="(max-width: 560px) 100vw, (max-width: 980px) 92vw, 44vw"

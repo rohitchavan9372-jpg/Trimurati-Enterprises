@@ -13,7 +13,7 @@ export function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div>
-            <h3>Trimurti Enterprise</h3>
+            <h3>Trimurti Enterprises</h3>
             <p>
               Defining structural excellence with premium aggregates, transport
               logistics, and precision rock engineering across India.
@@ -60,7 +60,7 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© 2026 Trimurti Enterprise. Architectural Archive Edition.</span>
+          <span>© 2026 Trimurti Enterprises. Architectural Archive Edition.</span>
           <span>Infrastructure services built for discoverability and trust.</span>
         </div>
       </div>

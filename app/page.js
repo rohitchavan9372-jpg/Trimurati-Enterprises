@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import CountUp from "@/components/count-up";
 import { Icon } from "@/components/icons";
@@ -55,7 +55,7 @@ export default function HomePage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Trimurti Enterprise Home",
+    name: "Trimurti Enterprises Home",
     url: siteConfig.url,
     description: siteConfig.description
   };
@@ -70,10 +70,10 @@ export default function HomePage() {
       <section className="section">
         <div className="container hero-grid hero-grid--home">
           <SlideIn direction="left">
-            <span className="eyebrow">Trimurti Enterprise</span>
+            <span className="eyebrow">Trimurti Enterprises</span>
             <h1 className="display">Welcome to Our <em>Home.</em><br />Building Stronger Sites.</h1>
             <p className="lede" style={{ maxWidth: "38rem", marginTop: "1.5rem" }}>
-              This is the home page of Trimurti Enterprise, where infrastructure materials,
+              This is the home page of Trimurti Enterprises, where infrastructure materials,
               transport strength, and precision execution come together for modern projects.
             </p>
             <p className="muted hero-intro-note">
@@ -88,7 +88,7 @@ export default function HomePage() {
             <div className="hero-visual">
               <MediaFrame
                 src={homeImages.hero}
-                alt="Trimurti Enterprise home page hero"
+                alt="Trimurti Enterprises home page hero"
                 className="hero-frame hero-frame--home"
                 priority
                 sizes="(max-width: 980px) 100vw, 56vw"

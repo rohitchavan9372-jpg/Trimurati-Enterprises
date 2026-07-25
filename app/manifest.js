@@ -1,8 +1,8 @@
-export const dynamic = "force-static";
+﻿export const dynamic = "force-static";
 
 export default function manifest() {
   return {
-    name: "Trimurti Enterprise",
+    name: "Trimurti Enterprises",
     short_name: "Trimurti",
     description: "Infrastructure services, blasting expertise, transport logistics, and aggregate supply.",
     start_url: "/",

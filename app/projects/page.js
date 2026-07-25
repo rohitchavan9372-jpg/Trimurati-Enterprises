@@ -1,4 +1,4 @@
-import BorderGlow from "@/components/border-glow";
+﻿import BorderGlow from "@/components/border-glow";
 import { FadeIn, SlideIn, StaggerContainer, StaggerItem } from "@/components/motion";
 import Link from "next/link";
 import { StructuredData } from "@/components/structured-data";
@@ -9,7 +9,7 @@ const projectsHero = "/images/services/abouttop.jpeg";
 
 export const metadata = {
   title: "Projects",
-  description: "View Trimurti Enterprise project categories across urban excavation, aggregate supply, and heavy logistics execution."
+  description: "View Trimurti Enterprises project categories across urban excavation, aggregate supply, and heavy logistics execution."
 };
 
 export default function ProjectsPage() {
@@ -28,7 +28,7 @@ export default function ProjectsPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Trimurti Enterprise Projects",
+    name: "Trimurti Enterprises Projects",
     url: `${siteConfig.url}/projects`
   };
 

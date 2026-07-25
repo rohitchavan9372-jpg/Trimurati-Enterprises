@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import BorderGlow from "@/components/border-glow";
 import { Icon } from "@/components/icons";
 import { MediaFrame } from "@/components/media";
@@ -11,7 +11,7 @@ const servicesHero = "https://lh3.googleusercontent.com/aida-public/AB6AXuDWIm2s
 
 export const metadata = {
   title: "Services",
-  description: "Explore Trimurti Enterprise services including blasting, sawing, rock anchoring, shotcrete, stone crushing, and transport logistics."
+  description: "Explore Trimurti Enterprises services including blasting, sawing, rock anchoring, shotcrete, stone crushing, and transport logistics."
 };
 
 export default function ServicesPage() {
